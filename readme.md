@@ -10,7 +10,7 @@ Langflow  - open source alternative of n8n
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7d796944-2290-47e2-b192-6a40dbb8aad5" />
 
 # Why
-Why Langflow Is Important for QA Engineers
+Why Langflow Is Important for QA Engineers  
 • You see what the AI is doing step by step
 • Easy to debug retrieval problems
 • No black-box prompting
