@@ -11,9 +11,9 @@ Langflow  - open source alternative of n8n
 
 # Why
 Why Langflow Is Important for QA Engineers  
-• You see what the AI is doing step by step
-• Easy to debug retrieval problems
-• No black-box prompting
+• You see what the AI is doing step by step  
+• Easy to debug retrieval problems  
+• No black-box prompting  
 • Easy to replace models (OpenAI → Local LLM)
 
 # RICE POT Framework
