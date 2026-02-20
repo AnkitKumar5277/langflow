@@ -7,7 +7,7 @@ or
 Langflow  - open source alternative of n8n
 
 # Implement
-<img width="852" height="542" alt="image" src="https://github.com/user-attachments/assets/7d796944-2290-47e2-b192-6a40dbb8aad5" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7d796944-2290-47e2-b192-6a40dbb8aad5" />
 
 # Why
 Why Langflow Is Important for QA Engineers
