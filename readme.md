@@ -37,3 +37,17 @@ T - professional and to the point
 
 # chat input
 Create a test plan for the app.vwo.com
+
+# What Langflow Helps You Build
+• RAG systems  
+• AI agents  
+• Chatbots  
+• Internal QA automation tools  
+
+Load your data  
+Create embeddings  
+Store in astra db  
+User asks a question  
+Retrieve & parse  
+Llm generates final answer  
+
