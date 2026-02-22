@@ -5,3 +5,7 @@ https://astra.datastax.com/org/3dc1eecc-e786-4b20-af44-59901dc59b1f/database?cre
 
 # generate a token  
 <img width="1094" height="585" alt="image" src="https://github.com/user-attachments/assets/8dad658d-3845-4070-8fd1-b23a57d59868" />
+
+# create collection
+<img width="1042" height="588" alt="image" src="https://github.com/user-attachments/assets/14468d64-2db0-4992-976f-84f8b97086c7" />  
+<img width="985" height="661" alt="image" src="https://github.com/user-attachments/assets/01b154ae-53ae-4790-bbe6-70ece94ee332" />  
