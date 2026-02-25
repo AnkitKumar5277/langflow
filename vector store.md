@@ -1,6 +1,29 @@
+A **Vector Store** is a database that stores:
+- Embeddings
+- Original text
+- Metadata
+- 
+### Why Normal Databases Fail Here
+SQL databases match **keywords**.
+ Vector stores match **meaning**.
+
+### QA Example
+Search query:
+>  “Invalid login scenarios” 
+Vector store returns:
+- Wrong password
+- Locked account
+- Expired credentials
+Even if the words don’t match exactly.
+
+### Popular Vector Stores
+- **Chroma** (local, beginner-friendly)
+- **Qdrant** (production-ready)
+- **FAISS**
+- Astra DB -> IBM
+
 # ceate a database  
 https://astra.datastax.com/org/3dc1eecc-e786-4b20-af44-59901dc59b1f/database?createDatabase=1  
-
 <img width="659" height="411" alt="image" src="https://github.com/user-attachments/assets/1aa64608-00b3-4bf6-b968-82b0503fea45" />  
 
 # generate a token  
