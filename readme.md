@@ -14,7 +14,7 @@ Instead of writing long Python code, you drag and drop components to create AI w
 - Chatbots  
 - Internal QA automation tools
 
-# What Is RAG (Retrieval-Augmented Generation)?
+# What Is RAG (Retrieval-Augmented Generation)?  
 **Problem with Normal LLMs**  
 RAG forces the LLM to answer using YOUR data, not its imagination.  
 If you ask an LLM: “Generate test cases for Login feature”   
