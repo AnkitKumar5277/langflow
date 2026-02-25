@@ -1,4 +1,4 @@
-# What
+# Langflow
 Langflow is a low-code visual framework to build applications using LLMs (Large Language Models).  
 It is built on top of LangChain.  
 Instead of writing long Python code, you drag and drop components to create AI workflows.  
