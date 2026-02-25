@@ -56,4 +56,92 @@ Type: Negative
 ```
 
 ## Step-by-Step Langflow Implementation
+### Step 1: Document Loader
+**Purpose:** Load test cases
+- CSV Loader
+- Text Loader
+Output:
+- Raw test case documents
+
+### Step 2: Text Splitter
+**Why:** Ensure context stays together
+Settings:
+```
+Chunk Size: 1000
+Overlap: 100
+```
+
+### Step 3: Embedding Model
+**Purpose:** Convert test cases to vectors
+Example:
+- OpenAI Embeddings
+Output:
+- Vector representations
+
+### Step 4: Vector Store
+**Purpose:** Store and search embeddings
+Recommended:
+- Chroma (for learning)
+Metadata:
+```
+feature
+type
+priority
+```
+
+### Step 5: Retriever
+**Purpose:** Fetch relevant test cases
+Retriever config:
+```
+Top K = 4
+Search Type = similarity
+```
+
+### Step 6: Prompt Template
+Example prompt:
+```
+You are a senior QA engineer.
+Context:
+{retrieved_test_cases}
+Task:
+Generate additional test cases for:
+{new_feature_description}
+Rules:
+- Do not duplicate existing cases
+- Focus on edge cases
+- Use same format
+```
+
+## Example End-to-End Execution
+### User Input
+```
+Generate test cases for Password Reset feature
+```
+
+### Retrieved Context
+- Login validation failures
+- Email verification tests
+- Error handling cases
+
+### Output Generated
+```
+Test Case ID: TC_PR_01
+Title: Password reset with expired token
+Steps:
+1. Click reset link after expiry
+Expected Result: Token expired message
+
+Test Case ID: TC_PR_02
+Title: Multiple reset attempts
+Expected Result: Rate limiting applied
+```
+
+## Next Extensions (Optional for Advanced Students)
+- Jira auto-creation
+- Automation feasibility tagging
+- Playwright code generation
+- Bug-to-test mapping
+
+
+
 
