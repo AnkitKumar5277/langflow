@@ -2,7 +2,7 @@ A **Vector Store** is a database that stores:
 - Embeddings
 - Original text
 - Metadata
-- 
+ 
 ### Why Normal Databases Fail Here
 SQL databases match **keywords**.
  Vector stores match **meaning**.
